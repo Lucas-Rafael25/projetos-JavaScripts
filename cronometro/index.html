@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro em JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Crônometro feito com JavaScript</h1>
+    </header>
+    <section>
+            <div id="tempo">
+                <p id="timer">00:00:00.000</p>
+            </div>
+            <div id="botoes">
+                <button id="start" onclick="começar(1)">START</button>
+                <button id="pause" onclick="pausar()">PAUSE</button>
+                <button id="reset" onclick="resetar()">RESET</button>
+            </div>
+
+
+    </section>
+    <footer>
+        <p>&copy;Alucard</p>
+    </footer>
+    <script src="cronometro.js"></script>
+</body>
+</html>
