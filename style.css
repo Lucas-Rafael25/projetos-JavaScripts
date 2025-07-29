@@ -27,7 +27,7 @@ button{
     border: solid black 2px;
     font: bold 10pt bold;
 }
-button#start,button#pause,button#reset{
+button#start,button#pause,button#reset,button#recomeçar{
     padding: 10px;
     height: 50px;
     width: 150px;
